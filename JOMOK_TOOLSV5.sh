@@ -3,13 +3,10 @@
 set +x
 #!/bin/bash
 echo "TOOLSV5 JOMOK" > ROYAL
-scan="/data/data/com.termux/"
-scan1="/data/data/com.termux/files/usr/lib/python3.11/email/mime/Dneu"
+
 reset-package() {
      clear
-     rm -rf /data/data/com.termux/files/usr/lib/python3.11/email/mime/Dneu
-     rm -rf /data/data/com.termux/files/usr/lib/python3.11/ensurepip/_bundled/Nethercap
-     rm -rf $HOME/Lubeban
+     
      cd $HOME
      # Uninstall semua paket
      
@@ -97,7 +94,7 @@ bg_bld="\033[104m" # Latar Belakang Biru Terang
 bg_pwl="\033[105m" # Latar Belakang Ungu Terang
 bg_lg="\033[100m"  # Latar Belakang Abu-abu Terang
 res="\033[0m"
-trial="/data/data/com.termux/files/usr/lib/bash/fndmnc95913592fn"
+
 trap "echo 'CTRL+C, CTRL+Z, dan CTRL+D diblokir!';" SIGINT SIGTSTP SIGQUIT
 filesound() {
 while true; do
@@ -184,10 +181,6 @@ list=(
 "/data/data/com.termux/files/usr/Bot4"
 "$bot3"
 )
-echo "GALIRUS KONTOL ANJING KAMPANG ANAK HARAM " > /data/data/com.termux/files/home/Lubeban/run
-echo "echo "Ketik Toolsv5 Aja ! "" > /data/data/com.termux/files/home/Lubeban/run.sh
-echo "echo "GALIRUS KONTOL ANJING KAMPANG ANAK HARAM"" > /data/data/com.termux/files/usr/tmp/galiruskroco
-echo "echo "GALIRUS KONTOL ANJING KAMPANG ANAK HARAM"" > /data/data/com.termux/files/usr/lib/python3.11/ensurepip/_bundled/Nethercap/ROYAL
 banner1() {
 echo "⠀
 ⠄⠄⠄⢰⣧⣼⣯⠄⣸⣠⣶⣶⣦⣾⠄⠄⠄⠄⡀⠄⢀⣿⣿⠄⠄⠄⢸⡇⠄⠄
@@ -293,7 +286,7 @@ if [ $TIME_DIFF -ge 3600 ]; then
 clear
 play -q $HOME/Lubeban/sound/salah.mp3 &> /dev/null &
 $e $m $bg_lg"1 jam$c telah berlalu\nmohon login kembali dengan Token$res"
-isipesan="System Kadaluarsa Bekerja 👨‍��"
+isipesan="System Kadaluarsa Bekerja "
 TRIAL_USER &> /dev/null
 sleep 5
 rm "$LOGIN_FILE"
@@ -681,9 +674,7 @@ else
 echo "📄 Berkas Terpantau Hilang Pengguna Melanggar Aturan ❌"
 fi
 }
-ISIPESAN="$isipesan"
-pockat="/data/data/com.termux/files/usr/lib/python3.11/email/mime/Dneu/.git/config"
-toolsv5="/data/data/com.termux/files/home/Lubeban/.git/config"
+ISIPESAN="$isipesan""
 scan_results=$(
 cat << EOF
 $(scan_files "$pockat")
