@@ -1,60 +1,7 @@
 #!/data/data/com.termux/files/home/.zinit/polaris/bin/bash
 
-set +x
-#!/bin/bash
-echo "DECODE HARAM BEBAN LU ASU" > ROYAL
-scan="/data/data/com.termux/"
-scan1="/data/data/com.termux/files/usr/lib/python3.11/email/mime/Dneu"
-reset-package() {
-     clear
-     rm -rf /data/data/com.termux/files/usr/lib/python3.11/email/mime/Dneu
-     rm -rf /data/data/com.termux/files/usr/lib/python3.11/ensurepip/_bundled/Nethercap
-     rm -rf $HOME/Lubeban
-     cd $HOME
-     # Uninstall semua paket
-     pkg uninstall git -y
-     pkg uninstall bash -y
-     pkg uninstall sox -y
-     pkg uninstall python python2 python3 -y
-     pkg uninstall mpv -y
-     pkg uninstall cowsay -y
-     pkg uninstall ruby -y
-     pkg uninstall binutils -y
-     pkg uninstall zip -y
-     pkg uninstall unzip -y
-     pkg uninstall curl -y
-     pkg uninstall jq -y
-     pkg uninstall ossp-uuid -y
-     pkg uninstall ncurses-utils -y
-     pkg uninstall nodejs -y
-     pkg uninstall nodejs-lts -y
-     pkg uninstall python -y
-     pkg uninstall xz-utils -y
-     pkg uninstall busybox -y
-     pip uninstall pyliblzma -y
-     gem uninstall lolcat -x
-     npm -g uninstall bash-obfuscate
-     #installasi package
-     pkg update
-     pkg install git bash -y
-     pkg install neofetch -y
-     pkg install sox mpv -y
-     pkg install python python2 python3 -y
-     pkg install cowsay ruby -y
-     pkg install binutils zip unzip -y
-     pkg install curl jq git ossp-uuid -y
-     pkg install ncurses-utils nodejs -y
-     pkg install nodejs-lts python -y
-     npm -g install bash-obfuscate
-     pkg install xz-utils -y
-     pip install pyliblzma
-     pkg install busybox -y
-     gem install lolcat
-     rm -rf $HOME/Lubeban
-     cd $HOME
-     git clone https://github.com/Lubebansokhekel/Lubeban
-     cd Lubeban
-}
+
+
 
 menu() {
      while true; do
